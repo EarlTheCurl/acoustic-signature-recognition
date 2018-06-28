@@ -1,6 +1,6 @@
 # Acoustic signature recognition
 
-Heavly based on the work of Dr. Scott Hawley's work, with modifications where needed.
+Heavly based on the work of Dr. Scott Hawley, with modifications where needed.
 Please visit his github for more details. 
 https://github.com/drscotthawley/panotti
 
