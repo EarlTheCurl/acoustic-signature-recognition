@@ -1,0 +1,5 @@
+boat_data
+*.hdf5
+Preproc
+__pycache__
+*.pyc

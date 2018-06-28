@@ -1,0 +1,10 @@
+// Starting up Tensorflow Virtualenv
+source $HOME/tensorflow/bin/activate	//'deacivate' to quit
+
+
+
+// Creating .tfrecords from .wav files
+python vggish_inference_demo.py --wav_file /path/to/file.wav --tfrecord_file /path/to/output/file.tfrecord --checkpoint vggish_model.ckpt --pca_params vggish_pca_params.npz
+
+// Converting several .wav to .tfrecord
+python vggish_inference_multiple.py --checkpoint vggish_model.ckpt --pca_params vggish_pca_params.npz

@@ -1,0 +1,5 @@
+*.wav
+_pycache_
+*.pyc
+*.npz
+*.ckpt
